@@ -16,7 +16,7 @@ const Carproduct = () => {
         {carCards?.map((item) => (
           <div className="border border-[#ddd] shadow-md" key={item.id}>
             <div>
-              <img className="block h-[230px]" src={item.url} alt="" />
+              <img className="block h-[230px] w-[100%] object-cover" src={item.url} alt="" />
             </div>
             <div className="p-[20px]">
               <h3 className="text-[22px] mb-[8px] text-[#0c5db3] font-medium">
